@@ -33,6 +33,3 @@ vi får se om jag lyckas kombinera vad jag har lärt mig med de nya värdefulla 
 genom kursen.
 
 [FIGURE src=image/design-bild.jpg?w=300 caption="En bild om design."]
-
-[GitHub](https://github.com/elimellinen/design)
-[GitHub](https://github.com/dbwebb-se/design)
