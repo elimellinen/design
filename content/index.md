@@ -10,4 +10,4 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 
 Hej!
 
-Jag heter Elisa, jag är 26 år gammal och bor i Uppsala, nära landet. Jag växte upp i en mellanstor stad i Italien.
+Jag heter Elisa, jag är 26 år gammal och bor i Uppsala, nära landet. Jag växte upp i en mellanstor stad i Italien. Och mer!
