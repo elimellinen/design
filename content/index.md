@@ -1,5 +1,15 @@
 ---
 title: "Elisas sida - design"
+
+index:
+    region: main
+    template: anax/v2/block/default
+    sort: 2
+    data:
+        meta:
+            type: single
+            route: block/byline
+
 ---
 Elisas sida för kursen "Teknisk webbdesign"
 =========================
@@ -10,4 +20,4 @@ Elisas sida för kursen "Teknisk webbdesign"
 
 Hej!
 
-Jag heter Elisa, jag är 26 år gammal och bor i Uppsala, nära landet. Jag växte upp i en mellanstor stad i Italien. 
+Jag heter Elisa, jag är 26 år gammal och bor i Uppsala, nära landet. Jag växte upp i en mellanstor stad i Italien.
