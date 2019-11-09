@@ -1,7 +1,7 @@
 ---
 title: "Elisas sida - design"
 
-index:
+byline:
     region: main
     template: anax/v2/block/default
     sort: 2
@@ -11,6 +11,7 @@ index:
             route: block/byline
 
 ---
+
 Elisas sida för kursen "Teknisk webbdesign"
 =========================
 
