@@ -5,6 +5,7 @@ views:
     byline:
         region: main
         template: anax/v2/article/default
+        sort: 2
         data:
             meta:
                 type: single
