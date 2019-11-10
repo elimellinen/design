@@ -26,3 +26,8 @@ html {
 .siteLogo {
     display: none;
 }
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
