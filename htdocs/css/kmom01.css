@@ -22,3 +22,7 @@ html {
     margin: 0 auto;
     background-color: white;
 }
+
+.site-logo {
+    display: none;
+}
