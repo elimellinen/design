@@ -21,3 +21,5 @@ Markdown test
 - [] kmom06
 
 till och med med emoji :+1:
+
+[funkar inte just nu]
