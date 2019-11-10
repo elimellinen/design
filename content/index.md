@@ -4,7 +4,7 @@ title: "Elisas sida - design"
 views:
     byline:
         region: main
-        template: anax/v2/article/default
+        template: anax/v2/block/default
         sort: 2
         data:
             meta:

@@ -4,7 +4,7 @@
  * This stylesheet is for the design course and kmom01. Fill it with style
  * to style up the website so it is useable.
  */
-body {
+html {
     background: linear-gradient(to bottom, #6699ff 0%, #99ff66 100%);
 }
 /* Hide submenu, leave this to kmom02 */
@@ -15,4 +15,10 @@ body {
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+.wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
 }
