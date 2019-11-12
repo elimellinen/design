@@ -1,3 +1,3 @@
-#### Footer col 2
+### Om sidan
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Elisa stylade den här sidan för KMOM01 i kursen **teknisk design och användbarhet**.

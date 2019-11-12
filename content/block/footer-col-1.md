@@ -1,3 +1,5 @@
-#### Footer col 1
+###Kontakt
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Om du har frågor du kan alltid nå mig på
+elge19@student.bth.se
+eller i chatten: @elimellinen

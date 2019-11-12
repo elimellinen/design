@@ -53,6 +53,7 @@ return [
             "region" => "header-col-2",
             "template" => "anax/v2/navbar/navbar_submenus",
             "data" => [
+                "class" => "navbar",
                 "navbarConfig" => require __DIR__ . "/navbar/header.php",
             ],
         ],
