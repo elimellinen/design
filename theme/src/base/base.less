@@ -1,0 +1,49 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: indianred;
+@bgColorBody: aliceblue;
+@colorBody: #ffD0ca;
+@fontFamilyBody: serif;
+@text_color: red;
+@size_title: 15px;
+@size_p: 15px;
+@alignment: left;
+@bckg: salmon;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    font-style: @fontFamilyBody;
+}
+
+body {
+    background-color: @bgColorHtml;
+    font-style: @fontFamilyBody;
+}
+
+h1 {
+    color: @text_color;
+    text-align: @alignment;
+    margin: 20px;
+    max-width: 100%;
+}
+
+h3 {
+    max-width: 100%;
+    color: @bckg;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 20px;
+    max-width: 100%;
+}
+
+article {
+    max-width: 100%;
+}

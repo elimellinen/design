@@ -1,0 +1,108 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+ @text_color: firebrick;
+ @size_title: 15px;
+ @size_p: 15px;
+ @alignment: left;
+ @bckg: salmon;
+
+/**
+ * General layout
+ */
+
+.wrap-all {
+    max-width: 100%;
+}
+
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: @bckg;
+}
+
+p {
+    text-align: @alignment;
+    color: @text_color;
+    font-size: @size_title;
+}
+
+.region-navbar {
+    display: inline;
+    float: left;
+    width: auto;
+    padding: 0.5em 1em;
+    font-size: 12px;
+}
+
+.region-header-col-2 {
+    display: inline;
+    width: auto;
+    padding: .5em 1em;
+    font-size: 16px;
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.wrap-all {
+    width: 900px;
+    margin: 0 auto;
+    background-color: @bckg;
+}
+
+.large {
+    display: none;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-header-col-1 {
+    display: none;
+}
+
+.rm-max .rm-small .rm-button {
+    color: @text_color;
+    font-size: 22px;
+}
+
+.footer-column {
+  width: 33%;
+  max-width: inherit;
+  float: left;
+  background-color: LightSeaGreen;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.region-flash {
+    height: 220px;
+    background-color: LightSeaGreen;
+}
+
+.region-main {
+    width: 70%;
+    text-align: left;
+    display: inline-block;
+    min-height: 30em;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+
+.route-style .inner-wrap-main .row {
+    display: block;
+}
