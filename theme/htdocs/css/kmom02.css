@@ -4959,31 +4959,26 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style to affect HTML elements on a general scale.
  */
 html {
-  overflow-y: scroll;
-  background-color: indianred;
   font-style: serif;
 }
 body {
-  background-color: indianred;
   font-style: serif;
 }
 h1 {
-  color: firebrick;
-  text-align: left;
-  margin: 20px;
+  padding: 10px;
   max-width: 100%;
+  margin: 0;
 }
 h3 {
   max-width: 100%;
-  color: salmon;
-  margin: 20px;
 }
 img {
   max-width: 100%;
 }
 p {
-  margin: 20px;
+  padding: 10px;
   max-width: 100%;
+  margin: 0;
 }
 article {
   max-width: 100%;
