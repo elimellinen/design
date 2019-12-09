@@ -5342,11 +5342,30 @@ article {
 /**
  * Variables
  */
-h1 {
+html {
+  background-image: url('../img/parrot.png');
+  background-size: cover;
+  max-width: 100%;
+}
+.row h1 {
   margin-left: 0.52083333%;
+  color: black;
+  letter-spacing: 4px;
+  margin-bottom: 120px;
 }
 .figure.right img {
   margin-left: 25.52083333%;
+  display: none;
+  margin-bottom: 2px;
+}
+article p {
+  background-color: #ed6663;
+  margin-bottom: 120px;
+  padding: 12px;
+}
+.rm-navbar.navbar {
+  background-color: pink;
+  margin-bottom: 24px;
 }
 .rm-default a {
   margin-left: 13.02083333%;
@@ -5354,6 +5373,8 @@ h1 {
 }
 .rm-navbar ul {
   margin-left: 25.52083333%;
+  background-color: pink;
+  margin-bottom: 120px;
 }
 .outer-wrap-header {
   margin-right: auto;
@@ -5426,12 +5447,21 @@ h1 {
 .rm-max .rm-small .rm-button {
   color: black;
 }
+.inner-wrap-footer {
+  background-color: #cf0c50;
+}
 .footer-column {
   display: inline;
   float: left;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #cf0c50;
+}
+.site-byline {
+  background-color: #c860c1;
+  padding: 12px;
+  margin-bottom: 120px;
 }
 .site-footer {
   display: inline;
@@ -5446,6 +5476,9 @@ h1 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.region-flash img {
+  display: none;
 }
 .region-main {
   display: inline;
@@ -5550,6 +5583,7 @@ h1 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    background-color: pink;
   }
 }
 /**

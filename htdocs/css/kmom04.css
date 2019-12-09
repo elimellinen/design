@@ -1,7 +1,7 @@
 /*!
- * LESS version of the stylesheet for design kmom03.
+ * LESS version of the stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03. Its intention is to
+ * This stylesheet is for the design course and kmom04. Its intention is to
  * use kmom02.css and lessify the style and use this as a wrapper for the new
  * style.
  */
@@ -596,7 +596,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #666;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -5352,6 +5352,10 @@ h1 {
   margin-left: 13.02083333%;
   padding-right: 3em;
 }
+.rm-navbar {
+  background-color: #006ebf;
+  color: white;
+}
 .rm-navbar ul {
   margin-left: 25.52083333%;
 }
@@ -5384,6 +5388,9 @@ h1 {
   display: block;
   clear: both;
 }
+.inner-wrap.inner-wrap-flash {
+  display: none;
+}
 .region-header-col-2,
 .region-header-col-3 {
   display: inline;
@@ -5414,6 +5421,9 @@ h1 {
 .region {
   opacity: 0.5;
 }
+.article {
+  margin-left: 13.02083333%;
+}
 .large {
   display: none;
 }
@@ -5425,6 +5435,9 @@ h1 {
 }
 .rm-max .rm-small .rm-button {
   color: black;
+}
+.site-byline {
+  margin-left: 13.02083333%;
 }
 .footer-column {
   display: inline;
@@ -5439,6 +5452,10 @@ h1 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  background-color: #006ebf;
+}
+.inner-wrap.inner-wrap-footer {
+  background-color: #006ebf;
 }
 .region-flash {
   display: inline;
@@ -5497,6 +5514,9 @@ h1 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.region-footer {
+  background-color: #006ebf;
 }
 @media screen and (max-width: 1000px) {
   .region-main {

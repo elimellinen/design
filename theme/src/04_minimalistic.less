@@ -1,0 +1,95 @@
+/*!
+ * LESS version of the stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04. Its intention is to
+ * use kmom02.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+//@import "module/stylechooser.less";  // Just an example module
+@import "normalize.css/normalize.less";
+
+
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+/**
+ * Font Awesome.
+ */
+
+@import "src/@desinax/typographic-grid/less/typography-font-families.less";
+@import "src/@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+@fontFamilyBody: "serif";
+
+
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+// // Magic number and default fontsize, together makes up base lineheight
+ @magicNumber:  22px;
+ @fontSizeBody: 16px;
+//
+// // Set font family to use
+@fontFamilyHeadings:  @fontFamilyArial;
+@fontFamilyBody:      @fontFamilyVerdana;
+@fontFamilyCode:      @fontFamilyCourier;
+//
+// // Activate the grid base font
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+}
+//
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+/**
+/**
+ * A responsive menu.
+ */
+
+//@import "base/base_default.less";
+@import "base/base_hgrid.less";
+
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+ /* Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+ // Activate the grid base font
+//@import "@desinax/typographic-grid/less/typography-font-families.less";
+//@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+@import "@desinax/vertical-grid/less/grid.less";
+//@import "layout/layout_default.less";
+//@import "layout/responsive_default.less";
+@import "layout/minimalistic.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+//@text_color: pink;
+//@background_color: red;
+
+//html {
+//    color: @text_color;
+//    background-color: @background_color;
+
+//}
+
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */

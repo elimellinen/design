@@ -1,0 +1,220 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+ @text_color: black;
+ @bkg-colorful: pink;
+ @bkg-footer: darkblue;
+ @color: magenta;
+
+
+ html {
+     background-image: url('../img/parrot.png');
+     background-size: cover;
+     max-width: 100%;
+ }
+
+.row h1 {
+     #desinax-vgrid.push(0);
+     color: black;
+     letter-spacing: 4px;
+     margin-bottom: 120px;
+ }
+
+ .figure.right img {
+     #desinax-vgrid.push(6);
+     display: none;
+     margin-bottom: @magicNumber / 12;
+ }
+
+article p {
+    background-color: #ed6663;
+    margin-bottom: 120px;
+    padding: 12px;
+}
+
+.rm-navbar.navbar {
+    background-color: pink;
+    margin-bottom: @magicNumber;
+}
+
+.rm-default a {
+    #desinax-vgrid.push(3);
+    padding-right: 3em;
+}
+
+.rm-navbar ul {
+    #desinax-vgrid.push(6);
+    //margin-left: 200px;
+    background-color: pink;
+    margin-bottom: 120px;
+}
+
+ .outer-wrap-header {
+     #desinax-vgrid.grid(100%);
+     margin-bottom: @magicNumber / 14;
+ }
+
+ .inner-wrap {
+     #desinax-vgrid.grid(1100px);
+     margin-bottom: @magicNumber / 14;
+ }
+
+ .inner-wrap-header {
+     #desinax-vgrid.grid(100%);
+     margin-bottom: @magicNumber / 14;
+ }
+
+.row {
+    #desinax-vgrid.row();
+    //background-color: #0f0;
+ }
+
+ .region-header-col-2,
+ .region-header-col-3 {
+     #desinax-vgrid.column(@columns);
+     margin-bottom: @magicNumber * 1.5;
+ }
+
+ .vgrid .inner-wrap {
+      @gridImage: "../img/grid_24x30x10-nomargin.png";
+      //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+      #desinax-vgrid.showGrid(@gridImage, 1100px);
+      &.inner-wrap-header {
+          #desinax-vgrid.showGrid(@gridImage);
+      }
+  }
+
+  // Show the grid
+
+  .region {
+      // Add some style to make it easier to see the structure of the grid
+      opacity: 0.5;
+  }
+
+.large {
+    display: none;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-header-col-1 {
+    display: none;
+}
+
+.rm-max .rm-small .rm-button {
+    color: @text_color;
+//    font-size: 22px;
+}
+
+.inner-wrap-footer {
+    background-color: #cf0c50;
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+    background-color: #cf0c50;
+    //margin-bottom: 10px;
+ // max-width: 100%;
+}
+
+.site-byline {
+    background-color: #c860c1;
+    padding: 12px;
+    margin-bottom: 120px;
+}
+
+.site-footer {
+    #desinax-vgrid.column(@columns);
+}
+
+
+.region-flash {
+//    height: 220px;
+#desinax-vgrid.column(@columns);
+}
+
+.region-flash img {
+    display: none;
+}
+
+.region-main {
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(2);
+
+    &.has-sidebar {
+        #desinax-vgrid.push(0);
+    }
+
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3 / 4 - 1 );
+    }
+
+    &.has-sidebar-left.has-sidebar.right {
+        #desinax-vgrid.column(@columns - 10);
+    }
+    //width: 70%;
+    //text-align: left;
+    //display: inline-block;
+    //min-height: 30em;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns * 1 / 4);
+    //width: 30%;
+    //float: left;
+//    display: inline-block;
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    #desinax-vgrid.column(@columns * 1 / 4 - 1);
+}
+
+.region .breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+
+    .has-sidebar-left.has-sidebar.right {
+        #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+        background-color: @bkg-colorful;
+        //margin-bottom: 10px;
+     // max-width: 100%;
+    }
+}
