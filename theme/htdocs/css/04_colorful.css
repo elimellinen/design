@@ -596,7 +596,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #666;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -5292,7 +5292,7 @@ h3 {
 }
 img {
   max-width: 100%;
-  padding-left: 10px;
+  padding: 10px;
   display: grid;
 }
 p {

@@ -15,7 +15,7 @@ Urval
 I början tänkte jag analysera olika webbsidor som representerar väldigt olika branscher
 och tjänster: en kommuns hemsida, ett bryggeri, osv. Men sen bestämde jag att det vore roligare
 att välja ut webbsidorna med liknande innehåll och gällande liknande tjänster för att se
-hur ett enkelt begrepp kan **presenteras** ur olika perspektiv/synvinklar.
+hur ett enkelt begrepp kan presenteras ur olika perspektiv.
 Jag valde att analysera 3 webbsidor som tillhör 3 olika ramenkrogar i centrala Stockholm.
 Sedan 2016-17 har ramen blivit allt mer populär i hela landet, och det blev speciellt uppskattad bland yngre, hipp människor, och webbsidorna
 
@@ -30,7 +30,7 @@ För att komplettera min rapport och förstå hur sidorna uppfattas av olika per
 
 Resultat
 -----------------------
-Webbsidan n. 1 - Misshumasshu
+Webbsidan n. 1 - [Misshumasshu](https://misshumasshu.se/)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -47,10 +47,10 @@ slideshow av bilder, en animerad <span> som visar en mening ("a mish mash of") s
 eftersom färger ligger väldigt nära varandra, mellan #ff77f4 och #ff4e4e) men
 rött ger sidan en starkare personlighet.  
 
-[FIGURE src="img/misshu1-PNG"]
+[FIGURE src="img/misshu1.PNG"]
 [FIGURE src="img/misshu2.PNG"]
 
-Webbsidan n. 2 - Totemo Ramen
+Webbsidan n. 2 - [Totemo Ramen](https://www.totemoramen.com/)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -75,7 +75,7 @@ av sidan med svarta kanter.
 [FIGURE src="img/totemo4.PNG"]
 
 
-Webbsidan n. 3 - Ai Ramen
+Webbsidan n. 3 - [Ai Ramen](https://www.airamen.se/)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -117,20 +117,17 @@ tar upp en ganska stor del av sidan - ca 40%);
 
 
 
- Känslan man får av sidan är en känsla av lugn, *familiar*, *cozy*,
- broken only by the cartoon ramen at the top of the page that functions as the
- "funny, young" element. The website is very simple with
- no custom made fonts and no animations, almost like looking at a paper menu
- at the restaurant itself. It seems to be directed at people of all ages,
-
-
  **Ai Ramen**
- Out of the 3 webpages, Ai ramen is definitely the one with the most serious,
- professional feeling due to the use of black and white and a clean font, and at the
- same time cozy, warm and "natural" because of the autumn colors and shades used
- The idea behind it seems to be a place to both eat lunch and dinner in a
- semi-formal setting. The target audience seems to be the broadest possible, but
- definitely a more mature crowd is the focus.
+
+Av de 3 sidorna, Ai ramen är absolut den mest "seriösa" och professionella
+känsla, på grund av den vita och svarta färger som bakgrundsfärger och
+det rena typsnittet. Samtidigt är sidan också inbjudande och varm tack vare
+accentfärgen, som påminner om höst. Idén bakom sidan verkar vara en plats
+att äta lunch eller middag i en semi-formell men mysig miljö.
+Målgruppen verkar vara den bredast möjliga, men gruppen som är i fokus verkar vara
+en äldre/mognare publik.
+
+
 
 
 **
