@@ -5415,21 +5415,26 @@ body {
 h1 {
   max-width: 100%;
   margin: 0;
-  font-size: 24px;
+  font-size: 44px;
+  color: lemonchiffon;
 }
 h3 {
   max-width: 100%;
   padding-left: 10px;
+  color: lemonchiffon;
 }
 img {
   max-width: 100%;
   padding: 10px;
   display: grid;
+  border: 1px solid white;
 }
 p {
-  padding-left: 10px;
   max-width: 100%;
   display: grid;
+  color: lemonchiffon;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 article {
   max-width: 100%;
@@ -5599,6 +5604,13 @@ figure.figure.right {
 }
 figure.codepen,
 figure.figure-codepen {
+  width: 100%;
+}
+.region-header,
+.region-flash,
+.inner-wrap-header .row,
+.inner-wrap-flash .row {
+  margin: 0;
   width: 100%;
 }
 h1 {

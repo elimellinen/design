@@ -6,9 +6,11 @@
 /**
  * Variables
  */
- @background-calm: #306030;
- @text-calm: white;
- @text-color: black;
+ @color1: cadetblue; //cadetblue
+ @color2: #1c280f;
+ @color3: #f21843; //red-ish
+ @textcolor1: white;
+ @textcolor2: white;
  @maxContentWidth: 33;
 
 
@@ -50,16 +52,18 @@ figure.figure-codepen {
 
  .figure.right img {
      #desinax-vgrid.push(6);
+     margin-top: 18px;
  }
 
 .rm-default a {
     #desinax-vgrid.push(3);
     padding-right: 3em;
+    letter-spacing: 0.5px;
 }
 
 .rm-navbar {
-    background-color: @background-calm;
-    color: @text-calm;
+    background-color: @color1;
+    color: @textcolor1;
 }
 
 .rm-navbar ul {
@@ -67,6 +71,11 @@ figure.figure-codepen {
     //margin-left: 200px;
 }
 
+.wrap-all {
+    background-image: url("../img/goose.jpg");
+    background-position: center;
+    background-size: cover;
+}
  .outer-wrap-header {
      #desinax-vgrid.grid(100%);
      margin-bottom: @magicNumber / 14;
@@ -84,6 +93,7 @@ figure.figure-codepen {
 
 .row {
     #desinax-vgrid.row();
+    margin-top: 66px;
     //background-color: #0f0;
  }
 
@@ -131,7 +141,7 @@ figure.figure-codepen {
 }
 
 .rm-max .rm-small .rm-button {
-    color: @text-color;
+    color: lavender;
 //    font-size: 22px;
 }
 
@@ -144,6 +154,10 @@ figure.figure-codepen {
     margin-top: @magicNumber * 10;
 }
 
+.block .site-footer em {
+    font-size: 10px;
+}
+
 .footer-column {
     #desinax-vgrid.column(@columns / 3);
     //margin-bottom: 10px;
@@ -152,7 +166,7 @@ figure.figure-codepen {
 
 .site-footer {
     #desinax-vgrid.column(@columns);
-    background-color: @background-calm;
+    //background-color: @color1;
     color: white;
 }
 
@@ -161,7 +175,7 @@ figure.figure-codepen {
 }
 
 .inner-wrap.inner-wrap-footer {
-    background-color: @background-calm;
+    //background-color: @color1;
 }
 
 
@@ -213,7 +227,7 @@ figure.figure-codepen {
 }
 
 .region-footer {
-    background-color: @background-calm;
+    background-color: @color2;
 }
 
 @media screen and (max-width: 1000px) {
