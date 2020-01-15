@@ -56,7 +56,7 @@ Webbsidan n. 2 - [Totemo Ramen](https://www.totemoramen.com/)
 <tr>
 <td style="height: 50px; width: 50px; background-color: #ccd7d9">
 <td style="height: 50px; width: 50px; background-color: #ffD0ca">
-<td style="height: 50px; width: 50px; background-color: #a9d4b4">
+<td style="height: 50px; width: 50px; background-color: #f8ba40">
 <td style="height: 50px; width: 50px; background-color: #efefef">
 </tr>
 </table>
